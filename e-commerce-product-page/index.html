@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo" src="/ecommerce-product-page-main/images/logo.svg">
+        <ul class="menu">
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+            <ul class="side_menu">
+                <li class="cart">
+                    <img class="cart-img" src="/ecommerce-product-page-main/images/icon-cart.svg">
+                    <p id="increment">0</p>
+                    <div class="cart-container">
+                        <h4>Cart</h4>
+                        <p style="font-size: medium">Cart is empty.</p>
+                        <div id="product-row">
+                            <!-- Cart content here -->
+                        </div>
+                        <a id="checkout" href="#">Checkout</a>
+                    </div>
+                </li>
+            <li><img class="avatar"src="/ecommerce-product-page-main/images/image-avatar.png"></li>
+            </ul>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col1">
+                <div class="expnd_container">
+                    <img id="expnd_img">
+                    <div id="imgtext"></div>
+                </div>
+                <div class="product_img_row">
+                    <div class="product_img_col">
+                        <img id='product-image' src="/ecommerce-product-page-main//images/image-product-1-thumbnail.jpg" onclick="myFunction(this);">
+                    </div>
+                    <div class="product_img_col">
+                        <img src="/ecommerce-product-page-main//images/image-product-2-thumbnail.jpg" onclick="myFunction(this);">
+                    </div>
+                    <div class="product_img_col">
+                        <img src="/ecommerce-product-page-main//images/image-product-3-thumbnail.jpg" onclick="myFunction(this);">
+                    </div>
+                    <div class="product_img_col">
+                        <img src="/ecommerce-product-page-main//images/image-product-4-thumbnail.jpg" onclick="myFunction(this);">
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <font class="font_head">SNEAKER COMPANY</font>
+                <br>
+                <h2 id="prod-name">Fall Limited Edition Sneakers</h2>
+                <br>
+                <br>
+                <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+                <br>
+                <br>
+                <h3 id="product-price">$125.00  <span>50%</span></h3>
+                <br>
+                <s>$250</s>
+                <br>
+                <a id="a2c" href="#">Add to Cart</a>
+            </div>
+        </div>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
